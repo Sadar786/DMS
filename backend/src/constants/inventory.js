@@ -1,0 +1,12 @@
+export const INVENTORY_TYPE = {
+  IN: "IN",
+  OUT: "OUT",
+  ADJUSTMENT: "ADJUSTMENT",
+};
+
+export const INVENTORY_REASON = {
+  STOCK_ENTRY: "STOCK_ENTRY",
+  SALE: "SALE",
+  EXPIRY: "EXPIRY",
+  ADJUSTMENT: "ADJUSTMENT",
+};
