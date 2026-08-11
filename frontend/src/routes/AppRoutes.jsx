@@ -12,9 +12,7 @@ import CustomerLedger from "../pages/customers/CustomerLedger";
 import StockEntery from "../pages/stockentries/StockEntries";
 import Reports from "../pages/reports/Reports";
 import Payments from "../pages/payments/Payments";
-//import Payments from "../pages/Payments";
-//import Expiry from "../pages/Expiry";
-//import Reports from "../pages/Reports";
+
 
 export default function AppRoutes() {
   return (
@@ -33,22 +31,6 @@ export default function AppRoutes() {
         </Route>
       </Routes>
 
-      {/* <Routes>
-      
-        <Route element={<AuthLayout />}>
-          <Route path="/login" element={<Login />} />
-        </Route>
-
-        <Route element={<DashboardLayout />}>
-          <Route path="/" element={<Dashboard />} />
-         
-          <Route path="/payments" element={<Payments />} />
-          <Route path="/expiry" element={<Expiry />} />
-          <Route path="/reports" element={<Reports />} />
-        </Route>
-
-      <Route path="*" element={<NotFound />} />
-      </Routes> */}
     </BrowserRouter>
   );
 }
