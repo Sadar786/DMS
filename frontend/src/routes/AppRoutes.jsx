@@ -15,7 +15,6 @@ import Payments from "../pages/payments/Payments";
 //import Payments from "../pages/Payments";
 //import Expiry from "../pages/Expiry";
 //import Reports from "../pages/Reports";
-//import NotFound from "../pages/NotFound";
 
 export default function AppRoutes() {
   return (
