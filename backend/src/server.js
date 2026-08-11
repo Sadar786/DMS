@@ -11,7 +11,7 @@ const startServer = async () => {
     // Create first admin if database is empty
     await seedAdmin();
 
-    app.listen(PORT, () => {
+    app.listen(PORT, "0.0.0.0", () => {
       console.log(`🚀 Server running on port ${PORT}`);
     });
   } catch (error) {

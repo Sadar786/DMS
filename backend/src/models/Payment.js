@@ -61,7 +61,6 @@ const paymentSchema = new mongoose.Schema(
 );
 
 // Indexes
-paymentSchema.index({ receiptNumber: 1 }, { unique: true });
 paymentSchema.index({ customer: 1 });
 paymentSchema.index({ sale: 1 });
 paymentSchema.index({ paymentDate: -1 });
